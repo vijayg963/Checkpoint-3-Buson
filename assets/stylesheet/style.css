@@ -538,28 +538,12 @@ b {
   background-image: url(../media/hero/services_hero.jpg);
   background-size: contain;
 }
-.service-text {
-  font-size: 42px;
-  color: white;
-  font-weight: 800;
-  display: flex;
-  justify-content: center;
-  padding: 86px;
-}
 
 /* contact css */
 
 .contact-hero {
   background-image: url(../media/hero/contact_hero.jpg);
   background-size: contain;
-}
-.contact-text {
-  font-size: 42px;
-  color: white;
-  font-weight: 800;
-  display: flex;
-  justify-content: center;
-  padding: 86px;
 }
 .g-map {
   padding: 100px 200px 50px 200px;
@@ -615,14 +599,6 @@ b {
 .cases-hero {
   background-image: url(../media/hero/cases_hero.jpg);
   background-size: contain;
-}
-.cases-text {
-  font-size: 42px;
-  color: white;
-  font-weight: 800;
-  display: flex;
-  justify-content: center;
-  padding: 86px;
 }
 .planing {
   padding: 100px 200px;
