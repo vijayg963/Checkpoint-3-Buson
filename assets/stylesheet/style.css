@@ -327,13 +327,14 @@ h5 {
   display: flex;
   margin: 0 auto;
   margin-top: 50px;
+  border: 2px solid #f9646b;
+  border-radius: 5px;
 }
 .btn-a2 a {
   padding: 10px 25px;
   border-radius: 6px;
   text-decoration: none;
   color: #f9646b;
-  border: 2px solid #f9646b;
 }
 .section-4 {
   padding: 100px 0;
@@ -508,6 +509,7 @@ b {
 
 .hero-about {
   background-image: url(../media/hero/about_hero.jpg);
+  background-size: contain;
 }
 .about-text {
   font-size: 42px;
@@ -515,7 +517,7 @@ b {
   font-weight: 800;
   display: flex;
   justify-content: center;
-  padding: 118px;
+  padding: 85px;
 }
 .trust-image {
   position: relative;
@@ -523,7 +525,7 @@ b {
 }
 .overflow-about {
   position: absolute;
-  right: 350px;
+  right: 200px;
   max-width: 380px;
   height: 320px;
   padding: 35px;
@@ -534,12 +536,14 @@ b {
 
 .service-hero {
   background-image: url(../media/hero/services_hero.jpg);
+  background-size: contain;
 }
 
 /* contact css */
 
 .contact-hero {
   background-image: url(../media/hero/contact_hero.jpg);
+  background-size: contain;
 }
 .g-map {
   padding: 100px 200px 50px 200px;
@@ -594,6 +598,7 @@ b {
 
 .cases-hero {
   background-image: url(../media/hero/cases_hero.jpg);
+  background-size: contain;
 }
 .planing {
   padding: 100px 200px;
@@ -655,6 +660,7 @@ b {
 
 .blog-hero {
   background-image: url(../media/hero/blog_hero.jpg);
+  background-size: contain;
 }
 .blog-text {
   font-size: 42px;
@@ -662,7 +668,7 @@ b {
   font-weight: 800;
   display: flex;
   justify-content: center;
-  padding: 160px;
+  padding: 108px;
 }
 .blog-section {
   padding: 60px 200px;
@@ -722,14 +728,16 @@ b {
 .flex-pink {
   padding: 30px;
   margin-bottom: 30px;
-  background-color: rgb(250, 232, 235);
+  background-color: #e9dadc38;
 }
 .search-btn input {
-  width: 70%;
+  width: 76%;
   padding: 10px;
+  margin-right: 5px;
 }
 .search-btn i {
   padding: 10px;
+  border-radius: 2px;
   color: white;
   background-color: #f9646b;
 }
@@ -751,24 +759,31 @@ b {
   border-top: 1px solid #f9646445;
   padding: 10px;
 }
+.flex-centre {
+  display: flex;
+  align-items: center;
+}
 .recent-post {
+  width: 300px;
   line-height: 1.2;
 }
 .recent-post img {
-  width: 100px;
-  height: 100px;
-  margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  margin: 5px 10px 5px 0px;
 }
 .recent-post h2 {
   margin: 5px 0;
-  font-size: 20px;
+  font-size: 17px;
 }
 .no-wrap button {
   padding: 5px 10px;
   margin: 6px;
+  background-color: white;
+  border-radius: 5px;
 }
 .insta-img img {
-  margin: 5px;
+  margin: 3px;
 }
 .search-btn .newslatter {
   margin: 40px 0px 10px 0px;
